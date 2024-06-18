@@ -51,3 +51,5 @@ This project is a web application built with React.js that allows users to back 
 2. Use the input field to enter a playlist ID and fetch the playlist details.
 3. Alternatively, select a playlist from the dropdown menu to fetch its details.
 4. Click the "Export to CSV" button to download the playlist details as a CSV file.
+
+5. This repository is inspired by https://github.com/zsh28/Spotify-Playlist-Backup-Service-Challenge.git. This is an adapted version of it.You can visit the original repository if you want the typescript version of it.
