@@ -1,8 +1,8 @@
 import axios from 'axios';
 //Function to get Auth token 
 const getAuthToken = async (code) => {
-    const clientId = "bd05f3124a624a6bbc8dbbdbcaec149c";
-    const clientSecret = "802af75f9c5d42ac904a6db186a29939";
+    const clientId = "your client key";
+    const clientSecret = "your client secret key";
     const redirectUri = "http://localhost:3000/callback";
   
     if (!clientId || !clientSecret || !redirectUri) {
@@ -36,7 +36,7 @@ const getAuthToken = async (code) => {
 
 //Function to Redirect to Spotify Login
 export const redirectToSpotifyLogin = () => {
-    const clientId = "bd05f3124a624a6bbc8dbbdbcaec149c";
+    const clientId = "your client key";
     const redirectUri = "http://localhost:3000/callback";
   
     if (!clientId || !redirectUri) {
