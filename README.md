@@ -25,3 +25,29 @@ This project is a web application built with React.js that allows users to back 
 - A Spotify Developer account
 
 ### Installation
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/saurabhrajani1704/Beats-Bank.git
+   cd Beats-Bank
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+
+   ```bash
+   npm run start
+   ```
+
+4. Open your browser and navigate to `http://localhost:3000`.
+
+### Usage
+
+1. Log in with your Spotify account.
+2. Use the input field to enter a playlist ID and fetch the playlist details.
+3. Alternatively, select a playlist from the dropdown menu to fetch its details.
+4. Click the "Export to CSV" button to download the playlist details as a CSV file.
